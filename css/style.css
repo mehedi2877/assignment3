@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 1800px;
+    padding: 20px 325px 0px;
+}
+h2{
+    padding: 10px;
+    text-align: center;
+    font-presentation: auto;
+    font-family: serif;
+}
+h3{
+    padding: 10px;
+    text-align: center;
+}
+h4{
+    padding: 7px;
+    text-align: center;
+}
+.bangladesh {
+    background-color: darkgreen;
+    width: 600px;
+    height: 330px;
+    position: relative;
+    box-shadow: 1px 0px 8px rgb(90 88 78 );
+    transition: .4s;
+}
+.bangladesh:hover{
+    transform: scale(1.1);
+}
+
+.bangladesh::after {
+    content: "";
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    left: 230px;
+    top: 80px;
+}
+.fb{
+    width: 150px;
+    position: fixed;
+    top: 40%;
+    right: -110px;
+    transition: 0.5s;
+    padding: 5px;
+}
+.fb:hover{
+    right: 4px;
+    cursor: pointer;
+}
+.ig{
+    width: 150px;
+    position: fixed;
+    top: 50%;
+    right:-110px;
+    transition: 0.5s;
+    padding: 5px;
+}
+.ig:hover{
+    right: 4px;
+    cursor: pointer;
+}
+.tt{
+    width: 150px;
+    position: fixed;
+    top: 60%;
+    right: -110px;
+    transition: 0.5s;
+    padding: 5px;
+}
+
+.tt:hover{
+    right: 4px;
+    cursor: pointer;
+}
+.ld{
+    width: 150px;
+    position: fixed;
+    top: 70%;
+    right: -110px;
+    transition: 0.5s;
+    padding: 5px;
+}
+
+.ld:hover{
+    right: 4px;
+    cursor: pointer;
+}
+.social-icon{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 100px 0;
+    margin: 80px 0;
+    transition: .4s;
+}
+.social-icon li{
+    list-style: block;
+    display: inline-block;
+    text-align: center;
+}
+.social-icon li a{
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 30px;
+    background: black;
+    color: white;
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: .4s;
+}
+.social-icon li a:hover{
+    background-color: white;
+    color: black;
+    background: #fff;
+    transform: rotate(720deg);
+}
+.fa-instagram{
+    color: red;
+}
+.fa-whatsapp{
+    color: green;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-twitter{
+    color: blue;
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-linkedin{
+    color: blue;
+}
